@@ -86,7 +86,7 @@ Net::Async::Consul - Make async calls to Consul via IO::Async
 
   my $loop = IO::Async::Loop->new;
   
-  my $kv = Net::Async::Consul->kv;
+  my $kv = Net::Async::Consul->kv(loop => $loop);
 
   # do some blocking op to discover the current index
   $kv->get("mykey", cb => sub { 
