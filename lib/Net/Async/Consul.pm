@@ -8,7 +8,7 @@ use strict;
 use Consul 0.016;
 use Net::Async::HTTP;
 use HTTP::Request;
-use HTTP::Headers;
+use HTTP::Headers 6.07;
 use Hash::MultiValue;
 use List::Util 1.29 qw(pairmap);
 use Carp qw(croak);

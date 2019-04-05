@@ -1,4 +1,5 @@
 {{$NEXT}}
+- Add explicit HTTP::Headers version dep for flatten()
 
 0.002     2018-10-15 11:17:50+11:00 Australia/Melbourne
 - Add missing loop option in SYNOPSIS
